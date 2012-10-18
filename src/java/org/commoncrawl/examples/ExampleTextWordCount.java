@@ -182,6 +182,7 @@ public class ExampleTextWordCount extends Configured implements Tool {
     // Set the output data types.
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(LongWritable.class);
+    //testing
 
     // Set which Mapper and Reducer classes to use.
     job.setMapperClass(ExampleTextWordCount.ExampleTextWordCountMapper.class);
